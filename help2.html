@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    </head>
+    
+    <body>
+        <div id="control-bar">
+            <b>Toggle Sidebar</b>
+        </div>
+        
+        <div id="sidebar">
+            <ul class="sb">
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="photo-gallery.html"><b>Photo Gallery</b></a></li>
+                <li><a href="websites.html"><b>Websites</b></a></li>
+                <li><a href="help.html"><b>Help</b></a></li>
+                <li><a href="login.html"><b>Adit Only</b></a></li>
+                <li><a href="passcode.html"><b>My Birth Year</b></a></li>
+            </ul>
+        </div>
+        
+        <div id="main-content">
+            <h1 class="title">Help Form</h1>
+            
+            <form class="help-form" action="https://formspree.io/f/mwkwyqkb" method="POST">
+                <input class="info" type="text" name="name" placeholder="Your Name">
+                <p></p>
+                <input class="info" type="email" name="_replyto" placeholder="Your Email">
+                <p></p>
+                <input class="info" type="text" name="help" placeholder="What you need help with">
+                <p></p>
+                <input id="send" type="Submit" value="Send">
+</form>
+            
+            <button class="back-button"><a href="help.html">Back</a></button>
+
+        </div>
+        
+        <script src="toggle-sidebar.js"></script>
+        
+    </body>
+    
+</html>

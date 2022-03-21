@@ -1,0 +1,88 @@
+body {
+    font: 18px;
+    font-family: monospace;
+    line-height: 32px;
+    background-color: lightcyan
+}
+
+h1, h3 {
+    font-style: normal;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    background-color: lawngreen;
+    height: 100em;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#main-content {
+    padding-left: 25%;
+}
+
+#control-bar {
+    font-size: 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: beige;
+    font-family: cursive;
+}
+
+#control-bar:hover {
+    background-color: #d8d8b8;
+}
+
+.error {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    font-family: cursive;
+    color: darkblue;
+}
+
+.intro {
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    font-size: 1.7em
+}
+
+ul {
+    list-style: none;
+}
+
+#help {
+    font-size: 1.5em;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.back-button {
+    background-color: aquamarine;
+    font-size: 1.1em;
+    border: none;
+}
+
+.back-button:hover {
+    background-color: mediumaquamarine;
+}
+
+.help-form, .info {
+    font-size: 1.2em;
+    font-family: cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.help-form, #send {
+    font-size: 1.15em;
+    font-family: cursive;
+}

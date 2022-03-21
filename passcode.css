@@ -1,0 +1,53 @@
+body {
+    background-color: dimgrey;
+}
+
+#numbers {
+    margin: auto;
+    width: 450px;
+    border: 3px solid white;
+    padding: 0;   
+    text-align: center;
+    height: 500px;
+    font-size: 4em;
+    font-family: cursive;
+    border-width: 10px;
+}
+
+td {
+    border: 3px solid white;
+    background-color: aquamarine
+}
+
+.top {
+    margin: auto;
+    width: 430px;
+    padding: 0;   
+    text-align: center;
+    height: 60px;
+    font-size: 2.2em;
+    font-family: cursive;
+    background-color: black;
+    color: aliceblue;
+    border: 3px solid white;
+    border-width: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.passcode {
+    margin: auto;
+    width: 430px;
+    padding: 0;   
+    text-align: center;
+    height: 60px;
+    font-size: 3em;
+    font-family: cursive;
+    background-color: black;
+    color: aliceblue;
+    border: 3px solid white;
+    border-width: 10px;
+}

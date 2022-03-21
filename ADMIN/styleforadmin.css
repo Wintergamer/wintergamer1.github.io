@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    background-image: url(./adminbackground.jpg);
+    color: white;
+    font-family: "Balsamiq Sans", sans-serif;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.content h2 {
+    font-family: monospace;
+    font-size: 3.5em;
+}
+
+.content p {
+    font-size: 1.5em;
+    padding-bottom: 100%;
+}
+
+.content p a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    min-height: 7.5vh;
+    background-color: rgb(20, 20, 20);
+    padding: 0 10%;
+}
+
+.nav-logo {
+    width: 200px;
+    vertical-align: middle;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 15.5px;
+    margin-left: 50px;
+    transition: color 0.5s ease;
+}
+
+.nav-links li a:hover {
+    color: crimson;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-mobile div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+/* Responsive media queries */
+
+@media only screen and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        top: 7.5vh;
+        height: 92.5vh;
+        background-color: rgb(20, 20, 20);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10vh 0 30vh 0;
+        transform: translate(100%);
+    }
+
+    .nav-links li a {
+        margin-left: 0px;
+        font-size: larger;
+    }
+
+    .nav-mobile {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.nav-active {
+    transform: translate(0%);
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    .nav-links li a {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .nav-links li a {
+        margin-left: 35px;
+    }
+}

@@ -1,0 +1,23 @@
+img {
+    width: 80px;
+    height: 115px;
+}
+
+th {
+    font-size: 2em;
+    padding: 20px;
+}
+
+td {
+    padding: 25px;
+}
+
+p {
+    
+    font-size: 1em;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    background-color: aquamarine;
+    font-family: cursive;
+}
